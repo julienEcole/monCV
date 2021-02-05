@@ -1,0 +1,152 @@
+body, header, footer, section, aside, nav, div1, div2, div3 {
+    display: block;
+    border: 1px solid grey;
+    margin: 0;
+    padding: 0;
+    color:black;
+}
+
+header {
+    padding: 20px 0 20px 0;
+    text-align: center;
+    font-size: 30px;
+    background-color: black;
+	color:white;
+}
+footer {
+    padding: 20px 0 20px 0;
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+}
+aside {
+    width: 20%;
+    padding: 20px 10px 20px 10px;
+    float: right;
+    color: black;
+}
+nav {
+    padding: 10px 50px 10px 50px;
+    font-size: 14px;
+    height: 30px;
+}
+section {
+    padding: 30px 20px 30px 20px;
+}
+
+ul, li {
+    display: block;
+    text-decoration: none;
+    text-align: left;
+    padding: 5px;
+    border: 0px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+li {
+    margin-left: 2px;
+}
+
+dt{
+    float: left;
+    margin-left: 30px;
+}
+
+div1, div2, div3{
+    float: left;
+    width: 30px;
+    height: 30px;
+    border : 1px solid;
+}
+
+mdp{
+    font-style: italic;
+    color: red;
+}
+
+
+button{
+    cursor: pointer;
+}
+
+button:hover{
+    text-decoration: underline;
+}
+
+input[type=text], input[type=password], input[type=email], input[type=date] {
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+input[type = "submit"]{
+    background-color: #53af57;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 75%;
+}
+
+input[type=submit]:hover {
+    background-color: grey;
+    color: #53af57;
+    border: 1px solid #53af57;
+}
+
+div5, div6{
+    display: none;
+}
+
+#important, #title {
+    font-weight: bold;
+}
+#title{
+    font-size: 150%;
+    color:black;
+    margin: 10px;
+    padding: 10px;
+}
+#photo-identite {
+    float: right;
+    /*width: 50px;
+    height: 50px;*/
+    padding: 20px;
+    width : 320px;
+    height : 180px;
+}
+#table{
+    border-spacing:0px;
+}
+
+#blueBox{
+    background-color: #2874a6;
+}
+
+#orangeBox{
+    background-color: #cc5500;
+}
+
+.couleurFonce, #greyBox{
+    background-color: #808080;
+}
+
+.couleurClair{
+    background-color: rgb(165, 165, 165);
+}
+
+.inscription{
+    width:400px;
+    margin:0 auto;
+    margin-top:10%;
+}
